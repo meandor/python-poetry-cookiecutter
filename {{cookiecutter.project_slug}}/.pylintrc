@@ -1,0 +1,12 @@
+[MASTER]
+disable=
+    C0114,
+    C0115,
+    C0116,
+    W0611,
+    W0603,
+    R0903
+ignore-patterns=.*_pb2.*
+
+[FORMAT]
+good-names=i,j,k,_,n,N,x,y,z

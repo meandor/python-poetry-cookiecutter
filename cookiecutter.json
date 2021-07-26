@@ -1,0 +1,10 @@
+{
+  "full_name": "Your full name",
+  "email": "example@email.com",
+  "project_name": "Python project name",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+  "project_short_description": "Short description of what this should do",
+  "version": "0.1.0",
+  "command_line_interface": ["Click", "Argparse", "No command-line interface"],
+  "open_source_license": ["MIT license", "BSD license", "ISC license", "Apache Software License 2.0", "GNU General Public License v3", "Not open source"]
+}
