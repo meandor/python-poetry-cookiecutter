@@ -23,5 +23,6 @@ Install the latest Cookiecutter if you haven't installed it yet:
 https://cookiecutter.readthedocs.io/en/latest/installation.html
 
 Generate a Python package project:
-
+```bash
 cookiecutter https://github.com/meandor/python-poetry-cookiecutter.git
+```
