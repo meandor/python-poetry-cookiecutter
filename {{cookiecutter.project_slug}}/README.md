@@ -10,11 +10,6 @@ A _Python_ [what am i?] that [what do i do?] build with poetry.
 make install
 ```
 
-## Generate python files from protos
-```bash
-make protos
-```
-
 ## Tests and checks
 To run all tests and checks:
 ```bash

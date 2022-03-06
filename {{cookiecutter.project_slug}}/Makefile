@@ -43,6 +43,7 @@ type-check: ## Checks types
 .PHONY: auto-format
 auto-format: ## Automatically formats the code
 	poetry run black $(SRC_PATH) ./tests
+	poetry run isort $(SRC_PATH) ./tests
 
 .PHONY: unit-test
 unit-test: ## Runs all unit tests
