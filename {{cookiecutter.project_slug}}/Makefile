@@ -33,7 +33,7 @@ requirements.txt: ## Creates requirements.txt file
 
 .PHONY: lint
 lint: ## Checks code formatting and style
-	poetry run pylint $(SRC_PATH) ./tests
+	poetry run ruff check $(SRC_PATH) ./tests
 
 .PHONY: type-check
 type-check: ## Checks types
@@ -42,8 +42,7 @@ type-check: ## Checks types
 
 .PHONY: auto-format
 auto-format: ## Automatically formats the code
-	poetry run black $(SRC_PATH) ./tests
-	poetry run isort $(SRC_PATH) ./tests
+	poetry run ruff format $(SRC_PATH) ./tests
 
 .PHONY: unit-test
 unit-test: ## Runs all unit tests
