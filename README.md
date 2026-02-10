@@ -1,4 +1,7 @@
 # Python cookiecutter template
+
+> THIS REPOSITORY IS ARCHIVED IN FAVOR OF UV: https://github.com/meandor/python-uv-cookiecutter 
+
 [Cookiecutter](https://github.com/cookiecutter/cookiecutter) template for a Python project.
 
 * GitHub repo: https://github.com/audreyfeldroy/cookiecutter-pypackage/
